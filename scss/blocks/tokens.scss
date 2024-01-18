@@ -219,7 +219,7 @@
       width: 260px;
       flex-shrink: 0;
       border-left: 1px dashed var(--colorBorderSubtle);
-      background: var(--colorBackgroundPrimary);
+      background: transparent;
       padding: 0 0 0 16px;
       border-radius: 0;
     }
@@ -266,7 +266,7 @@
   display: flex;
   gap: 6px;
   flex-direction: column;
-  background: var(--colorBackgroundSecondary);
+  background: var(--colorBackgroundAlt);
   padding: 12px;
   border-radius: var(--borderRadiusDefault);
   font-size: 12px;
@@ -323,7 +323,7 @@
   }
 
   .token-value {
-    font-size: 12px;
+    font-size: 14px;
     font-family: var(--fontFamily);
   }
 
@@ -392,7 +392,7 @@
     align-items: center;
     padding: 1px 4px 0 4px;
     min-width: 0;
-    background: rgba(255,255,255,0.8);
+    background: var(--colorBackgroundAlt);
     backdrop-filter: blur(8px);
     justify-content: center;
     border-bottom-left-radius: var(--borderRadiusDefault);
@@ -445,7 +445,7 @@
 .content-block--token-container .grid > div > p.title {
   margin: 8px 0 0 0;
   padding: 0;
-  font-size: var(--fontSizeSmall);
+  font-size: var(--fontSizeMedium);
   font-weight: var(--fontWeightSemibold);
   line-height: var(--lineHeightSmall);
   color: var(--colorInkPrimary);
@@ -464,7 +464,7 @@
   border-radius: var(--borderRadiusDefault);
   box-sizing: border-box;
   overflow: hidden;
-  background: var(--colorBackgroundPrimary);
+  background: transparent;
   padding-bottom: 4px;
 }
 
@@ -476,7 +476,7 @@
   margin: 8px 0 0;
   background: transparent;
   border-top: 1px solid var(--colorBorderSubtle);
-  border-radius: 0;
+  border-radius: var(--borderRadiusDefault);
   padding: 12px 0 0;
 
   .label {
@@ -707,7 +707,7 @@
       position: sticky;
       top: calc(6px + var(--topNavHeight, 0px) + var(--tabOffset, -6px));
       padding-top: 6px;
-      background: var(--colorBackgroundPrimary);
+      background: var(--colorBackgroundSecondary);
     }
 
     .grid-content--header {
@@ -728,7 +728,7 @@
     padding-right: 40px;
     flex-shrink: 0;
     min-width: 220px;
-    background: var(--colorBackgroundPrimary);
+    background: var(--colorBackgroundSecondary);
     padding: 6px;
     font-weight: var(--fontWeightBold);
   }
