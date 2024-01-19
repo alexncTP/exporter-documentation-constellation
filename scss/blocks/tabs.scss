@@ -37,7 +37,7 @@
   align-items: center;
   background: transparent;
   position: relative;
-  border-radius: var(--borderRadiusDefault);
+  border-radius: var(--borderRadiusSmall);
   padding: 0;
   white-space: nowrap !important;
   transition: var(--transitionDefault);
@@ -55,7 +55,7 @@
     width: 100%;
     padding: 0 16px;
     height: var(--tabsItemHeight);
-    border-radius: var(--borderRadiusDefault);
+    border-radius: var(--borderRadiusSmall);
     transition: var(--transitionDefault);
   }
 
@@ -76,7 +76,7 @@
       position: absolute;
       bottom: 0px;
       left: 0;
-      border-radius: var(--borderRadiusDefault);
+      border-radius: var(--borderRadiusSmall);
       background-color: var(--colorAccent) !important;
     }
   }
@@ -95,7 +95,7 @@
 .tab-content-block {
   background: var(--colorBackgroundPrimary);
   border: 1px solid var(--colorBorderSubtle);
-  border-radius: var(--borderRadiusLarge);
+  border-radius: var(--borderRadiusSmall);
   padding: 24px;
   margin-top: -1px;
 }
@@ -120,7 +120,7 @@
 /* Variant: Pills */
 .nav-pills .nav-link:not(.active):hover {
   color: var(--colorInkPrimary);
-  background-color: var(--colorBackgroundSecondary);
+  background-color: var(--colorBackgroundAlt);
 }
 
 .nav-pills .nav-link {
@@ -128,7 +128,7 @@
   font-size: var(--fontSizeSmall);
   color: var(--colorInkPrimary);
   margin-bottom: 2px;
-  border-radius: var(--borderRadiusDefault) 0px 0px var(--borderRadiusDefault);
+  border-radius: var(--borderRadiusSmall) 0px 0px var(--borderRadiusSmall);
   transition: var(--transitionDefault);
 }
 
@@ -163,7 +163,7 @@
 
 .accordion {
   border: 1px solid var(--colorBorderSubtle);
-  border-radius: var(--borderRadiusLarge);
+  border-radius: var(--borderRadiusSmall);
   overflow: hidden;
 }
 
@@ -198,7 +198,7 @@
 }
 
 .accordion-section a.collapsed .accordion-header:hover {
-  background-color: var(--colorBackgroundSecondary);
+  background-color: var(--colorBackgroundPrimary);
 }
 
 .accordion-section:last-of-type a.collapsed .accordion-header {
@@ -262,7 +262,7 @@
   font-weight: normal;
   padding: 1rem 1.25rem 1rem 2.25rem;
   display: block;
-  border-radius: var(--borderRadiusDefault);
+  border-radius: var(--borderRadiusSmall);
   position: relative;
 }
 
