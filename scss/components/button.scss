@@ -4,12 +4,12 @@
 /* =================================== */
 
 :root {
-    --buttonSlackBackground: #fff;
-    --buttonSlackBackgroundHover: #5A1D5E;
-    --buttonSlackInk: #5A1D5E;
-    --buttonSlackInkHover: #fff;
-    --buttonSlackBorder: var(--colorBorderSubtle);
-    --buttonSlackBorderHover: var(--buttonSlackBackgroundHover);
+    --buttonSlackBackground: #07348A;
+    --buttonSlackBackgroundHover: #0747C0;
+    --buttonSlackInk: #A6C0F0;
+    --buttonSlackInkHover: #C2D5F7;
+    --buttonSlackBorder: transparent;
+    --buttonSlackBorderHover: transparent;
 }
 
 
@@ -52,7 +52,7 @@
     margin-left: 12px;
     white-space: nowrap;
     transition: var(--transitionDefault);
-    border-radius: var(--borderRadiusDefault);
+    border-radius: 9999px;
     text-decoration: none;
 
     * {
@@ -116,7 +116,7 @@
     font-size: var(--fontSizeTiny);
     padding: 4px 8px;
     font-weight: var(--fontWeightSemibold);
-    border-radius: var(--borderRadiusSmall);
+    border-radius: 9999px;
 
     &.btn-with-icon {
         padding: 4px 8px 4px 4px;
