@@ -4,11 +4,11 @@
 
 /* Theme */
 :root {
-  --pageNavigationBackground: var(--colorBackgroundPrimary);
+  --pageNavigationBackground: var(--colorBackgroundAlt);
   --pageNavigationElevation: var(--boxShadowLevel1);
   --pageNavigationInk: var(--colorInkPrimary);
-  --pageNavigationInkSection: var(--colorInkSecondary);
-  --pageNavigationHoverInk: var(--colorAccent); 
+  --pageNavigationInkSection: var(--colorInkTertiary);
+  --pageNavigationHoverInk: var(--colorInkPrimary); 
   --pageNavigationInkHoverSection: var(--pageNavigationInkSection);
   --pageNavigationHoverBackground: var(--pageNavigationBackground); 
   --pageNavigationHoverElevation:  var(--boxShadowLevel2); 
@@ -60,7 +60,7 @@
       }
       
       > .pagename {
-        font-weight: var(--fontWeightSemibold);
+        font-weight: var(--fontWeightBold);
         font-size: var(--fontSizeSmall);
         line-height: 1.3;
         color: var(--pageNavigationInk);
