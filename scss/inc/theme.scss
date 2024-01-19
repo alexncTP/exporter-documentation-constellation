@@ -4,34 +4,34 @@
   /*  Palette 
   /* =================================== */
   --colorWhite: #fff;
-  --colorNeutral100: #f9f9fa;
-  --colorNeutral200: #f2f4f5;
-  --colorNeutral300: #e6e9eb;
-  --colorNeutral400: #dce0e4;
-  --colorNeutral500: #9298a0;
-  --colorNeutral600: #6a707a;
-  --colorNeutral700: #666e7a;
-  --colorNeutral800: #515964;
-  --colorNeutral900: #141618;
-  --colorRed100: #fff5f5;
-  --colorRed500: #d23031;
-  --colorRed700: #C13F39;
-  --colorRed900: #9e2122;
-  --colorGreen100: #ebfff0;
-  --colorGreen500: #00a454;
-  --colorGreen900: #008141;
-  --colorOrange100: #fff6f0;
-  --colorOrange500: #e36b00;
-  --colorOrange900: #ba4e00;
+  --colorNeutral100: #FCFBF3;
+  --colorNeutral200: #F1F1E8;
+  --colorNeutral300: #E5E5DD;
+  --colorNeutral400: #BFBFB8;
+  --colorNeutral500: #BFBFB8;
+  --colorNeutral600: #696A6A;
+  --colorNeutral700: #51524F;
+  --colorNeutral800: #3A3B39;
+  --colorNeutral900: #1C1C1C;
+  --colorRed100: #FDC8C0;
+  --colorRed500: #D01E08;
+  --colorRed700: #A60F00;
+  --colorRed900: #7A0A00;
+  --colorGreen100: #B1F2D0;
+  --colorGreen500:#0E7946;
+  --colorGreen900: #0A4427;
+  --colorOrange100: #FCE1A8;
+  --colorOrange500: #F9B21B;
+  --colorOrange900: #B57700;
 
   /*  Core tokens 
   /* =================================== */
   --fontFamily: Inter, Arial, sans-serif;
   --headingFontFamily: var(--fontFamily);
-  --borderRadiusSmall: 2px;
-  --borderRadiusDefault: 4px;
-  --borderRadiusLarge: 6px;
-  --navItemBorderRadius: var(--borderRadiusDefault);
+  --borderRadiusSmall: 4px;
+  --borderRadiusDefault: 8px;
+  --borderRadiusLarge: 16px;
+  --navItemBorderRadius: var(--borderRadiusSmall);
   --transitionDefault: 200ms all ease-in-out;
   --boxShadowLevel0: 0px 0px 0px 1px var(--colorBorderSubtle);
   --boxShadowLevel1: 0px 4px 8px rgba(0, 0, 0, 0.05),
@@ -62,11 +62,11 @@
   /* for page structure */
   --colorBorderStructure: var(--colorBorderSubtle);
   /* links, active states, ... */
-  --colorAccent: #0f62fe;
+  --colorAccent: #205CD4;
   /* hovers for primary */
-  --colorAccentAlt: #0043ce;
+  --colorAccentAlt: #07348A;
   /* Background for active items, e.g. in left nav or tabs */
-  --colorAccentSurface: #ecf4ff;
+  --colorAccentSurface: #D8E4FA;
   /* Ink color on accent */
   --colorAccentInk: var(--colorWhite);
   /* Inline code mark color */
@@ -77,7 +77,7 @@
   --fontWeightBold: 700;
 
   /* Site */
-  --pageBackground: var(--colorBackgroundPrimary);
+  --pageBackground: var(--colorBackgroundSecondary);
 
   /* CTA button */
   --ctaButtonBackground: var(--colorAccent);
