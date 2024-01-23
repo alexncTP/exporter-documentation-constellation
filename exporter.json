@@ -3,7 +3,7 @@
   "name": "Constellation Customizations",
   "description": "Edit of the default customizable exporter for design system documentation",
   "author": "Supernova - Edit by Alex Navarro",
-  "organization": "Trustpilot",
+  "organization": "CDS",
   "source_dir": "src",
   "assets_dir": "assets",
   "version": "4.9.2",
